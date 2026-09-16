@@ -1,0 +1,37 @@
+ame: Test Daily Sheet Parser
+
+on:
+  workflow_dispatch:
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: pip install PyMuPDF
+      - name: Parse and validate test PDF
+        shell: bash
+        run: |
+          set -e
+          PDF=$(find test-pdfs -maxdepth 1 -type f -iname '*.pdf' | head -n 1)
+          test -n "$PDF" || { echo "No PDF found in test-pdfs/"; exit 1; }
+          mkdir -p output
+          python knowledge_pdf_parser.py "$PDF" --output output/result.json
+          python - <<'PY'
+          import json
+          d=json.load(open("output/result.json", encoding="utf-8"))
+          assert d["validation"]["ok"] is True
+          assert d["date"]
+          assert d["appearances"]
+          n=sum(len(a["questions"]) for a in d["appearances"])
+          assert n > 0
+          print(f"VALIDATED: {d['date']} - {len(d['appearances'])} appearances - {n} questions")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: parsed-daily-sheet
+          path: output/result.json
