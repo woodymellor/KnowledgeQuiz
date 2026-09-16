@@ -1,0 +1,65 @@
+name: Test Daily Sheet Parser
+
+on:
+  workflow_dispatch:
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PDF parser
+        run: pip install PyMuPDF
+
+      - name: Parse test PDF
+        shell: bash
+        run: |
+          set -e
+          PDF=$(find test-pdfs -maxdepth 1 -type f -iname '*.pdf' | head -n 1)
+
+          if [ -z "$PDF" ]; then
+            echo "No PDF found in test-pdfs/"
+            exit 1
+          fi
+
+          mkdir -p output
+          python knowledge_pdf_parser.py "$PDF" > output/result.json
+
+          python - <<'PY'
+          import json
+
+          p = "output/result.json"
+
+          with open(p, encoding="utf-8") as f:
+              d = json.load(f)
+
+          assert d.get("date"), "No internal sheet date found"
+          assert d.get("validation", {}).get("ok") is True, d.get("validation")
+
+          n = sum(
+              len(a.get("questions", []))
+              for a in d.get("appearances", [])
+          )
+
+          assert n > 0, "No questions extracted"
+
+          print(
+              f"SUCCESS: {d['date']} — "
+              f"{len(d['appearances'])} appearances — "
+              f"{n} questions"
+          )
+          PY
+
+      - name: Upload generated JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: parsed-daily-sheet
+          path: output/result.json
