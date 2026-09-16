@@ -59,8 +59,51 @@ jobs:
           )
           PY
 
-      - name: Upload generated JSON
+      - name: Upload generated JSON artifact
         uses: actions/upload-artifact@v4
         with:
           name: parsed-daily-sheet
           path: output/result.json
+
+      - name: Upload Daily Sheet to Google Drive
+        env:
+          UPLOAD_TOKEN: ${{ secrets.UPLOAD_TOKEN }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          API_URL = "https://script.google.com/macros/s/AKfycbz9r5Rf6tyWjvtZ4D-EGnr5H8buga_5ET2x0mkmhL8gJ-pNEQt7jIRWi2MIdaeQiljq/exec"
+
+          with open("output/result.json", encoding="utf-8") as f:
+              sheet = json.load(f)
+
+          payload = json.dumps({
+              "token": os.environ["UPLOAD_TOKEN"],
+              "sheet": sheet
+          }).encode("utf-8")
+
+          request = urllib.request.Request(
+              API_URL,
+              data=payload,
+              headers={
+                  "Content-Type": "application/json"
+              },
+              method="POST"
+          )
+
+          with urllib.request.urlopen(request) as response:
+              result = json.loads(response.read().decode("utf-8"))
+
+          print(result)
+
+          if result.get("ok") is not True:
+              raise SystemExit(
+                  "Google Drive upload failed: " +
+                  str(result.get("error"))
+              )
+
+          print("DRIVE UPLOAD SUCCESS:", result["filename"])
+          PY
