@@ -31,14 +31,12 @@ jobs:
           fi
 
           mkdir -p output
-          python knowledge_pdf_parser.py "$PDF" > output/result.json
+          python knowledge_pdf_parser.py "$PDF" --output output/result.json
 
           python - <<'PY'
           import json
 
-          p = "output/result.json"
-
-          with open(p, encoding="utf-8") as f:
+          with open("output/result.json", encoding="utf-8") as f:
               d = json.load(f)
 
           assert d.get("date"), "No internal sheet date found"
