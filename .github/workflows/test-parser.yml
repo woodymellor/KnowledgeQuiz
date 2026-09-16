@@ -1,4 +1,4 @@
-name: Test Daily Sheet Parser
+name: Process Daily Sheet
 
 on:
   workflow_dispatch:
@@ -19,21 +19,20 @@ jobs:
       - name: Install dependency
         run: pip install PyMuPDF
 
-      - name: Parse and validate test PDF
-        shell: bash
+      - name: Download current Daily Sheet
         run: |
-          set -e
+          mkdir -p input
+          curl --fail --location \
+            "https://wizann.uk/apps/wizpoints/daily.pdf" \
+            --output input/daily.pdf
 
-          PDF=$(find test-pdfs -maxdepth 1 -type f -iname '*.pdf' | head -n 1)
-
-          if [ -z "$PDF" ]; then
-            echo "No PDF found in test-pdfs/"
-            exit 1
-          fi
-
+      - name: Parse and validate Daily Sheet
+        run: |
           mkdir -p output
 
-          python knowledge_pdf_parser.py "$PDF" --output output/result.json
+          python knowledge_pdf_parser.py \
+            input/daily.pdf \
+            --output output/result.json
 
           python - <<'PY'
           import json
@@ -59,16 +58,9 @@ jobs:
           )
           PY
 
-      - name: Upload generated JSON artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: parsed-daily-sheet
-          path: output/result.json
-
       - name: Upload Daily Sheet to Google Drive
         env:
           UPLOAD_TOKEN: ${{ secrets.UPLOAD_TOKEN }}
-        shell: bash
         run: |
           python - <<'PY'
           import json
@@ -88,14 +80,14 @@ jobs:
           request = urllib.request.Request(
               API_URL,
               data=payload,
-              headers={
-                  "Content-Type": "application/json"
-              },
+              headers={"Content-Type": "application/json"},
               method="POST"
           )
 
           with urllib.request.urlopen(request) as response:
-              result = json.loads(response.read().decode("utf-8"))
+              result = json.loads(
+                  response.read().decode("utf-8")
+              )
 
           print(result)
 
@@ -105,5 +97,8 @@ jobs:
                   str(result.get("error"))
               )
 
-          print("DRIVE UPLOAD SUCCESS:", result["filename"])
+          print(
+              "DRIVE UPLOAD SUCCESS:",
+              result["filename"]
+          )
           PY
