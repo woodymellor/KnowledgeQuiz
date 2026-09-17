@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Media Button Test</title>
+</head>
+
+<body style="font-family:sans-serif;padding:30px">
+
+<h1>Headset Media Test</h1>
+
+<p id="status">Press Start.</p>
+
+<audio id="player" controls></audio>
+
+<br><br>
+
+<button id="start" style="font-size:20px;padding:15px">
+  START TEST
+</button>
+
+<script>
+const player = document.getElementById("player");
+const status = document.getElementById("status");
+
+const tracks = [
+  "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+  "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+];
+
+let track = 0;
+
+function loadTrack() {
+  player.src = tracks[track];
+
+  status.textContent =
+    "Playing track " + (track + 1);
+
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata =
+      new MediaMetadata({
+        title: "Media Test Track " + (track + 1),
+        artist: "Knowledge Quiz Test"
+      });
+  }
+
+  player.play();
+}
+
+function nextTrack() {
+  track = (track + 1) % tracks.length;
+  loadTrack();
+}
+
+function previousTrack() {
+  track =
+    (track - 1 + tracks.length) % tracks.length;
+
+  loadTrack();
+}
+
+if ("mediaSession" in navigator) {
+  navigator.mediaSession.setActionHandler(
+    "nexttrack",
+    nextTrack
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "previoustrack",
+    previousTrack
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "play",
+    () => player.play()
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "pause",
+    () => player.pause()
+  );
+}
+
+document.getElementById("start").onclick =
+  loadTrack;
+</script>
+
+</body>
+</html>
