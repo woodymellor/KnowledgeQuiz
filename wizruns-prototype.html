@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WizRuns Mapping Prototype</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body{height:100%;margin:0;font-family:Arial,sans-serif} #map{height:100%}
+.panel{position:absolute;z-index:1000;top:12px;left:55px;width:390px;max-height:calc(100% - 45px);
+overflow:auto;background:#171717f2;color:#eee;padding:14px;border-radius:9px;box-shadow:0 3px 18px #0008}
+h2{font-size:17px;margin:0 0 6px} .sub{font-size:12px;color:#bbb;margin-bottom:10px}
+button{padding:8px 10px;border:1px solid #777;border-radius:6px;background:#eee;color:#111;font-weight:bold;cursor:pointer}
+#status{font-size:12px;margin:9px 0;color:#ddd} ol{padding-left:24px;margin:8px 0} li{padding:3px 0;font-size:12px}
+.taxi{background:#5b4513;padding:2px 4px;border-radius:4px} .note{font-size:11px;color:#aaa;margin-top:10px;line-height:1.35}
+.legend{position:absolute;z-index:1000;right:12px;bottom:24px;background:#171717e8;color:#eee;padding:9px;border-radius:7px;font-size:12px}
+.sw{display:inline-block;width:24px;border-top:4px solid #3388ff;margin-right:6px;vertical-align:middle}
+</style>
+</head><body>
+<div id="map"></div>
+<div class="panel">
+<h2>Australia High Commission (WC2) To Paddington Station (W2)</h2>
+<div class="sub">Blue Book 1 · WizRuns road-by-road source</div>
+<button id="resolve">Resolve with endpoint anchors</button>
+<div id="status">Prototype 2 ready: exact start/end coordinates are now anchors for choosing the correct road segments.</div>
+<ol>
+<li><b>Leave On Left</b> — <span class="">Aldwych</span></li><li><b>Right</b> — <span class="">Kingsway</span></li><li><b>Left</b> — <span class="">High Holborn</span></li><li><b>Forward</b> — <span class="">Princes Circus</span></li><li><b>Leave By</b> — <span class="">Saint Giles High Street</span></li><li><b>Right</b> — <span class="">Earnshaw Street</span></li><li><b>Left</b> — <span class="">New Oxford Street</span></li><li><b>Forward</b> — <span class="">Saint Giles Circus</span></li><li><b>Forward</b> — <span class="">Oxford Street</span></li><li><b>Forward</b> — <span class="">Oxford Circus</span></li><li><b>Forward</b> — <span class="taxi">Oxford Street (Taxis Only)</span></li><li><b>Right</b> — <span class="">Orchard Street</span></li><li><b>Left</b> — <span class="">Portman Square</span></li><li><b>Forward</b> — <span class="">Seymour Street</span></li><li><b>Right</b> — <span class="">Edgware Road</span></li><li><b>Left</b> — <span class="">Harrow Road</span></li><li><b>Comply</b> — <span class="">Harrow Road Circus</span></li><li><b>Leave By</b> — <span class="">Bishops Bridge Road</span></li><li><b>Left Into</b> — <span class="">Paddington Station</span></li>
+</ol>
+<div class="note">Prototype rule: WizRuns is the authority for the road sequence. OpenStreetMap is used only to obtain geometry for those named roads. “Oxford Street (Taxis Only)” is deliberately preserved in the call list.</div>
+</div>
+<div class="legend"><span class="sw"></span>WizRun road geometry</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
+const MTKEY="PNNb3V1vbSVRLuDtRZl4", START=[51.5127255432815, -0.115225691121346], END=[51.51800520353443, -0.17906561779423036], roads=["Aldwych", "Kingsway", "High Holborn", "Saint Giles High Street", "Earnshaw Street", "New Oxford Street", "Oxford Street", "Orchard Street", "Portman Square", "Seymour Street", "Edgware Road", "Harrow Road", "Bishops Bridge Road"];
+const map=L.map('map').setView([51.515,-0.145],13);
+L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key='+MTKEY,{tileSize:512,zoomOffset:-1,maxZoom:20,attribution:'© MapTiler © OpenStreetMap contributors'}).addTo(map);
+L.marker(START).addTo(map).bindPopup('Start: High Commission of Australia');
+L.marker(END).addTo(map).bindPopup('End: Paddington Station');
+let group=L.featureGroup().addTo(map), view='heat';
+const esc=s=>s.replace(/["\]/g,'\$&'), d=(a,b)=>map.distance(a,b);
+async function resolve(){
+ const btn=document.getElementById('resolve'),st=document.getElementById('status');btn.disabled=true;group.clearLayers();
+ st.textContent='Prototype 2: fetching candidates, then choosing a chain using the exact start/end coordinates…';
+ const names=roads.map(n=>'way["highway"]["name"="'+esc(n)+'"](51.49,-0.21,51.535,-0.09);').join('');
+ try{
+  const res=await fetch('https://overpass-api.de/api/interpreter?data='+encodeURIComponent('[out:json][timeout:40];('+names+');out geom;'));
+  if(!res.ok)throw Error('HTTP '+res.status);const data=await res.json(),by={};
+  for(const w of data.elements||[]){const n=w.tags&&w.tags.name;if(n&&w.geometry)(by[n]??=[]).push(w.geometry.map(x=>[x.lat,x.lon]));}
+  let prev=[{cost:0,end:START,path:[]}],missing=[];
+  for(const name of roads){const candidates=by[name]||[];if(!candidates.length){missing.push(name);continue}let next=[];
+   for(const s0 of candidates)for(const seg of [s0,s0.slice().reverse()]){
+    let best=null;for(const q of prev){const cost=q.cost+d(q.end,seg[0]);if(!best||cost<best.cost)best={cost,end:seg.at(-1),path:q.path.concat([[name,seg]])};}next.push(best);
+   }next.sort((a,b)=>a.cost-b.cost);prev=next.slice(0,80);
+  }
+  prev.sort((a,b)=>(a.cost+d(a.end,END))-(b.cost+d(b.end,END)));const best=prev[0];if(!best)throw Error('No chain found');
+  for(const [name,seg] of best.path)L.polyline(seg,{weight:6,opacity:.78}).bindTooltip(name).addTo(group);
+  const all=[START,END];best.path.forEach(x=>all.push(...x[1]));map.fitBounds(L.latLngBounds(all),{padding:[25,25]});
+  st.textContent='Selected '+best.path.length+' ordered road segments using continuity plus exact endpoint anchors.'+(missing.length?' Unresolved/non-road calls: '+missing.join(', '):'');
+ }catch(e){st.textContent='Resolver error: '+e.message} btn.disabled=false;
+}
+document.getElementById('resolve').onclick=resolve;
+</script></body></html>
