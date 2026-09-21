@@ -1,29 +1,10 @@
 {
-  "checked_at_utc": "2026-09-21T13:56:05.093803+00:00",
+  "checked_at_utc": "2026-09-21T14:26:40.307075+00:00",
   "manifest_url": "https://wizann.uk/apps/wizpoints/timestamps-v2.php",
   "timestamps": {
     "data/Examiners.txt": "1789989907",
     "data/PointsInfo.txt": "1789989904",
     "data/Questions.txt": "1789989905"
   },
-  "last_downloads": [
-    {
-      "path": "data/Examiners.txt",
-      "server_timestamp": "1789989907",
-      "bytes": 1328,
-      "sha256": "4217994ddda1e131073989a29727324ccf758641565957b4203f7aa2a842b2e9"
-    },
-    {
-      "path": "data/PointsInfo.txt",
-      "server_timestamp": "1789989904",
-      "bytes": 3112233,
-      "sha256": "124da4dc94bd8ff8a49e87340f94229e116e3a77bacf00069efc4c88f294010e"
-    },
-    {
-      "path": "data/Questions.txt",
-      "server_timestamp": "1789989905",
-      "bytes": 3392539,
-      "sha256": "fe815d0f24f14b04714a371bf7ff198a59046f01c326926093f819e979a9f0b8"
-    }
-  ]
+  "last_downloads": []
 }
