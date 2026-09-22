@@ -12195,7 +12195,7 @@
 12369|Kings College Hall|Champion Hill|SE5|16||||.
 12370|Kings College Hall of Residence|Champion Hill|SE5|16||||4
 12371|Embankment Place|Northumberland Avenue/Villiers Street|WC2|5|8|51.50713553418774|-0.12285654210451696|.
-12372|Kings College Hospital|Denmark Hill/Bessemer Road|SE5|35|1750|51.46832694094868|-0.09409035115245722|.
+12372|Kings College Hospital|Denmark Hill/Bessemer Road|SE5|35|1751|51.46832694094868|-0.09409035115245722|.
 12373|Kings College Library|Strand|WC2|39|6|||.
 12374|Kings College School|Southside Wimbledon Common|SW19|27||||.
 12375|Kings College School Boathouse|Embankment|SW15|96|4|51.468952928838945|-0.2194914668594592|.
@@ -17396,7 +17396,7 @@
 17682|Ruby in the Dust Restaurant W10|Portobello Road|W10|7||||299
 17683|Ruby Lounge PH|Caledonian Road|N1|46|6|||33
 17684|Ruby Triangle|Sandgate Street|SE15|5|25|51.4839535351566|-0.0621584280174914|.
-17685|Ruckholt Road|Eastway|E10|5|25|51.5541122578393|-0.0179382546609763|.
+17685|Ruckholt Road|Eastway|E10|5|24|51.5541122578393|-0.0179382546609763|.
 17686|Ruddimans Hotel|Sussex Gardens|W2|4||||160
 17687|Rudland and Stubbs Oyster Bar|Greenhill Rents|EC1|7||||.
 17688|Rudolf House|Sun Street|EC2|8||||26
@@ -18531,7 +18531,7 @@
 18834|Saint Bartholomew House|Fleet Street|EC4|8|2|51.5141007342222|-0.10520128569805716|.
 18835|Saint Bartholomew the Great Church|Cloth Fair|EC1|10|180|51.5190510136794|-0.09966389485675446|.
 18836|Saint Bartholomews Pathological Museum|West Smithfield|EC1|18|3|51.517686122406914|-0.101123003665406|.
-18837|Saint Bartholomews Hospital|King Edward Street/Giltspur Street|EC1|35|787|51.517413015135546|-0.09905492744655896|.
+18837|Saint Bartholomews Hospital|King Edward Street/Giltspur Street|EC1|35|788|51.517413015135546|-0.09905492744655896|.
 18838|Saint Bartholomews Hospital Medical School|Rutland Place/Charterhouse Square|EC1|27||||.
 18839|Saint Bartholomews School of Nursing and Midwifery|Ashfield Street|E1|27||||.
 18840|Saint Bartholomews The Great|West Smithfield|EC1|34|9|51.51894828370977|-0.09929974069286289|.
@@ -24886,7 +24886,7 @@
 25319|Brass Rail Bar|Oxford Street/Selfridges|W1|46||||.
 25320|Chambers Street|George Row/Bevington Street|SE16|5|7|51.50051961596692|-0.0671017044674776|.
 25321|Princes Street W1|Hanover Square/Regent Street|W1|5|10|51.51450317346284|-0.14278806746006012|.
-25322|Temple Mills Lane|Ruckholt Road / CelebrationAvenue|E20|5|54|51.551598766203|-0.00923783341462148|.
+25322|Temple Mills Lane|Ruckholt Road / CelebrationAvenue|E20|5|55|51.551598766203|-0.00923783341462148|.
 25323|Carteret Street|Broadway/Queen Annes Gate|SW1|5|3|||.
 25324|Carlisle Road NW6|Chevening Road/Brooksville Avenue|NW6|5||||.
 25325|Duke of Bedford Statue|Russell Square|WC1|9||||.
