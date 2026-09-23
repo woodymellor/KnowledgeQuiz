@@ -272,7 +272,7 @@
 276|Robert Milligan Statue|West India Quay/Hertsmere Road/Blood Alley|E14|9|1|||.
 277|Tillelis Restaurant|Saint John Street|EC1|7|2|||.
 278|Leamington Road Villas|Tavistock Road/Westboure Park Road|W11|5|19|51.51901837555|-0.201329684075877|.
-279|Royal Avenue|Saint Leonards Terrace|SW3|5|169|51.48942124135492|-0.16124116329454963|.
+279|Royal Avenue|Saint Leonards Terrace|SW3|5|170|51.48942124135492|-0.16124116329454963|.
 280|Turf Club Restaurant|Upper Richmond Road/Lodge Hotel|SW15|88||||.
 281|Holmes Place Health Club NW2|Cricklewood Lane|NW2|98||||108-110
 282|Westminster Hall|New Palace Yard/Parliament Square|SW1|16|3|||.
@@ -295,7 +295,7 @@
 299|Putney Bridge|Putney High Street/Putney Bridge Approach|SW15|5|31|51.4667390013133|-0.213195765743033|.
 300|N10 Club - GONE|Muswell Hill|N10|24|2|51.5893383931805|-0.145433784356785|.
 301|Firefly Bar|Clapham Common South Side|SW4|46|36|51.456336272267|-0.144081215769813|69
-302|Dover House Road|Upper Richmond Road/Roehampton High Street|SW15|5|99|51.4618344557766|-0.238151175321022|.
+302|Dover House Road|Upper Richmond Road/Roehampton High Street|SW15|5|100|51.4618344557766|-0.238151175321022|.
 303|Wandsworth Park|Putney Bridge Road|SW15|45|399|51.46112942466569|-0.20218777276457237|.
 304|Kandy Tea Room|Holland Street|W8|7||||4
 305|French Connection HQ|Camden Street|NW1|36||||39
@@ -517,7 +517,7 @@
 523|Oneills PH NW1|Euston Road|NW1|46|1|||73
 524|Leabank Square|Berkshire Road|E9|1|9|51.54547774963392|-0.02531552886891516|.
 525|Smith Square|Dean Stanley Street|SW1|1|720|51.4959781757231|-0.127098592212267|.
-526|Hamleys Toy Store|Regent Street|W1|57|200|51.51279930449661|-0.14007300685875249|.
+526|Hamleys Toy Store|Regent Street|W1|57|201|51.51279930449661|-0.14007300685875249|.
 527|West Heath Court|West Heath Avenue/North End Road|NW11|20|2|51.570945292146256|-0.19093163146995337|.
 528|Young England|Elizabeth Street|SW1|58||||.
 529|Chatsworth Farm Shop|Elizabeth Street|SW1|57||||.
@@ -1319,7 +1319,7 @@
 1334|James Selby Store|Holloway Road|N7|57|5|||400
 1335|Milk Yard|Monza Street/Garnet Street|E1|5|18|51.50748482752942|-0.053601733824306025|.
 1336|Milk Street|Wood Street/Gresham Street|EC2|5|36|51.5150299094638|-0.0936233588591207|.
-1337|Victoria Coach Station Arrivals & Taxi Rank|Eccleston Place|SW1|58|332|51.49307863073|-0.148423246535929|.
+1337|Victoria Coach Station Arrivals & Taxi Rank|Eccleston Place|SW1|58|333|51.49307863073|-0.148423246535929|.
 1338|George Yard W1|Duke Street|W1|5|9|51.5127950636669|-0.151254444697722|.
 1339|Savoy Place|Victoria Embankment|WC2|5|13|51.509217832357045|-0.12096053368681936|.
 1340|Saint Pancras Almhouses|Southampton Road|NW5|58|2|||.
@@ -2048,7 +2048,7 @@
 2071|150 Bar|Old Street|EC1|46||||243
 2072|151 Club|Kings Road|SW3|24|5|51.4879480280722|-0.167303674668446|151
 2073|1520 AD|Swallow Street|W1|58||||17
-2074|Number 16 Hotel|Sumner Place|SW7|4|105|51.493167841906285|-0.17556879031753134|16
+2074|Number 16 Hotel|Sumner Place|SW7|4|106|51.493167841906285|-0.17556879031753134|16
 2075|167 Hotel|Cresswell Gardens|SW5|4||||167
 2076|1789 Restaurant|Fairfield Road (Gone)|E3|7|7|||.
 2077|179 Restaurant|Shaftesbury Avenue|WC2|7||||179
@@ -2118,7 +2118,7 @@
 2141|Santander HQ|Triton Square|NW1|36|17|51.5249025928762|-0.140239821729293|.
 2142|Abbey Orchard Street|Victoria Street|SW1|5|51|51.4983275802516|-0.131475434646631|.
 2143|Abbey Road Estate|Abbey Road|NW8|28|1|||.
-2144|Abbey Road Studios|Abbey Road|NW8|59|248|51.53200657020719|-0.17813552196441068|3
+2144|Abbey Road Studios|Abbey Road|NW8|59|249|51.53200657020719|-0.17813552196441068|3
 2145|Abbey School for Speakers|Gayfere Street|SW1|27||||16
 2146|Claverton Street|Lupus Street/Grosvenor Road|SW1|5|61|51.4869242432165|-0.13790762645725|.
 2147|Social Bar|Little Portland Street|W1|46|3|51.5173490946186|-0.14075004354220594|.
@@ -2370,7 +2370,7 @@
 2395|Air Malta House - GONE|Upper Richmond Road|SW15|8|6|51.4623737733763|-0.221884008281945|314
 2396|Air Mauritius|Conduit Street|W1|66||||49
 2397|Air Namibia (Beaumont House)|Approach Road|SW20|66||||1
-2398|Westbridge Road|Vicarage Crescent/Battersea Bridge Road|SW11|5|133|51.47525242858031|-0.1749682082687661|.
+2398|Westbridge Road|Vicarage Crescent/Battersea Bridge Road|SW11|5|134|51.47525242858031|-0.1749682082687661|.
 2399|Albion Way EC1|Little Britain|EC1|5|7|51.51804507813022|-0.09819465690049553|.
 2400|Alfred Salter Blue Plaque SE10|Greenwich South Street|SE10|41||||.
 2401|Don Restaurant SE1 - GONE|Tower Bridge Road|SE1|7||51.5035548291743|-0.0765450953600277|.
@@ -2915,7 +2915,7 @@
 2948|Balham Hill|Balham High Road/Clapham Common South Side|SW12|5|59|51.4500065640322|-0.147906546167258|.
 2949|Balham Leisure Centre|Elmfield Road|SW17|23|273|51.440780937509565|-0.15183650820447112|.
 2950|Balham Mosque|Old Devonshire Road|SW12|11|68|51.4465664357493|-0.149049509729093|.
-2951|Balham Station|Balham Station Road|SW12|31|1265|51.443047103850496|-0.15174417529346415|.
+2951|Balham Station|Balham Station Road|SW12|31|1266|51.443047103850496|-0.15174417529346415|.
 2952|Wilson Street EC2|South Place/Sun Street|EC2|5|27|51.5210775981503|-0.0849484741588435|.
 2953|Balham Tup PH - GONE|Chestnut Grove|SW12|46|7|51.4441160126808|-0.153808941203926|.
 2954|Bali|Edgware Road|W2|58||||101
@@ -2992,7 +2992,7 @@
 3027|Arne Hose|Tyers Street|SE11|58||||.
 3028|Arnhem Wharf|Westferry Road|E14|100|6|51.49554447394465|-0.0273828921611888|.
 3029|Mission Restaurant SW6|Wandsworth Bridge Road|SW6|7|1|||116
-3030|Westbourne Park Bus Garage|Great Western Road|W2|87|76|51.52193895473868|-0.2006456016060088|.
+3030|Westbourne Park Bus Garage|Great Western Road|W2|87|77|51.52193895473868|-0.2006456016060088|.
 3031|Arnold and Jane Gabriel Home|Wolfington Road|SE27|35||||.
 3032|Arnold Circus|Calvert Avenue/Club Row|E2|5|193|51.52607820823297|-0.07487395451891452|.
 3033|Arnold House W9|Edbrooke Road|W9|8||||.
@@ -3741,7 +3741,7 @@
 3784|Astral House|Middlesex Street|E1|8||||125
 3785|Astronmical Association British (Burlington Hotel)|Piccadilly|W1|37|2|||49
 3786|Cava Bar|Green Lanes/Albion Road|N16|46|1|||.
-3787|Asylum Road|Old Kent Road/Queens Road|SE15|5|83|51.4745682083305|-0.0578638426695899|.
+3787|Asylum Road|Old Kent Road/Queens Road|SE15|5|84|51.4745682083305|-0.0578638426695899|.
 3788|Atelier |Beak Street|W1|58||||41
 3789|Athena Palace Banqueting Suite|Green Lanes|N8|58||||.
 3790|Athenaeum Club|Waterloo Place|SW1|24|177|51.50684133356645|-0.13269836099303203|.
@@ -4650,7 +4650,7 @@
 4701|Barons Hotel|Queensborough Terrace|W2|4|1|||1
 4702|Barons Keep|Gliddon Road|W14|20|204|51.4911798496504|-0.213175657099443|.
 4703|Baroque PH|Streatham High Road|SW16|46||||.
-4704|Grosvenor Barracuda Club Casino|Baker Street|W1|21|117|51.5165303190555|-0.155062702707502|1
+4704|Grosvenor Barracuda Club Casino|Baker Street|W1|21|118|51.5165303190555|-0.155062702707502|1
 4705|Barratt House|Oxford Street|W1|8||||341
 4706|Barratt Industrial Park|Gillender Street|E3|45||||.
 4707|Barret House|Victoria Road|NW6|8||||4
@@ -5140,7 +5140,7 @@
 5197|British Library|Euston Road/Midland Road|NW1|39|309|51.5295483725833|-0.12680411338806152|96
 5198|British Linen Bank|Fredericks Place|EC2|60|2|||.
 5199|British Medical Association (BMA House)|Tavistock Square|WC1|37|86|51.5258838229803|-0.129006095160222|.
-5200|British Museum|Great Russell Street|WC1|18|904|51.518370329996586|-0.12581441232164392|.
+5200|British Museum|Great Russell Street|WC1|18|905|51.518370329996586|-0.12581441232164392|.
 5201|British Museum Development Trust|Great Russell Street|WC1|37|1|||.
 5202|British Museum Education Centre|Montague Place|WC1|18||||.
 5203|British Music Information Centre|Stratford Place|W1|23||||10
@@ -5637,7 +5637,7 @@
 5704|Chester House Hotel|Ebury Street|SW1|4|1|51.49288488731718|-0.1509369765419149|134
 5705|Chester Square|Elizabeth Street/Lower Belgrave Street|SW1|1|88|51.4954200436652|-0.149746465484621|.
 5706|Chesterfield Gardens N4|Green Lanes/Warwick Gardens|N4|5||||.
-5707|Chesterfield Mayfair Hotel|Charles Street|W1|4|473|51.50776781221184|-0.14713159423531644|34
+5707|Chesterfield Mayfair Hotel|Charles Street|W1|4|474|51.50776781221184|-0.14713159423531644|34
 5708|Chesterfield House WC1|Bloomsbury Way|WC1|8||||15
 5709|Spur Road SW1|Queens Gardens/Birdcage Walk|SW1|5|2|||.
 5710|Gascoigne Place|Columbia Road|E2|5|1|51.527638273892|-0.0740135793806451|.
@@ -5726,7 +5726,7 @@
 5795|Brixton Oval|Rushcroft Road|SW2|5|12|||.
 5796|Brixton Park Estate|Brixton Road|SW9|28||||1
 5797|Brixton Police Station|Gresham Road|SW9|15|602|51.46482472344505|-0.11306587587420258|.
-5798|HMP Brixton|Jebb Avenue|SW2|50|989|51.4518274528063|-0.122351457606218|.
+5798|HMP Brixton|Jebb Avenue|SW2|50|990|51.4518274528063|-0.122351457606218|.
 5799|Brixton Recreation Centre|Brixton Station Road|SW2|23|70|51.4633068578356|-0.1127624717555688|.
 5800|Brixton Rock Dance Centre|Barrington Road|SW9|23||||.
 5801|Brixton Shaw Theatre|Brixton Hill|SW2|2||||.
@@ -5776,7 +5776,7 @@
 5845|Camden Snooker Centre|Delancey Street|NW1|23|1|51.537020732234|-0.142138990140808|16
 5846|Camden Square|Murray Street|NW1|1|254|51.5447326095105|-0.132160919708244|.
 5847|Camden Studios NW1 /2|Camden Street|NW1|59||||.
-5848|Camden Council & Town Hall|Pancras Square|N1|16|50|51.53382861865002|-0.1262068344720592|5
+5848|Camden Council & Town Hall|Pancras Square|N1|16|51|51.53382861865002|-0.1262068344720592|5
 5849|Camden Tup PH|Greenland Place|NW1|46|1|||.
 5850|Camden UPS Vehicle Pound|Regis Road|NW5|58|35|51.5503934845474|-0.144817008608991|.
 5851|Camden Wharf|Camden High Street|NW1|100||||.
@@ -6033,7 +6033,7 @@
 6107|Charing Cross Hospital|Fulham Palace Road|W6|35|1291|51.487182368326586|-0.21986088274309848|.
 6108|Charing Cross Hospital A and E|Saint Dunstans Road|W6|35|298|51.4880309090454|-0.221006449780219|.
 6109|Charing Cross Medical School|Saint Dunstans Road|W6|27|1|||.
-6110|Charing Cross Police Station|Agar Street|WC2|15|249|51.50976955785136|-0.12463807015994403|.
+6110|Charing Cross Police Station|Agar Street|WC2|15|250|51.50976955785136|-0.12463807015994403|.
 6111|Charing Cross Station & Taxi Rank|Strand|WC2|31|415|51.508359017412346|-0.125066854548607|.
 6112|Charing House|Windmill Walk |SE1|8||||.
 6113|Chariots Roman Spa 1 - GONE|Fairchild Street|EC2|115|167|51.523309758303|-0.0782825934476938|1
@@ -6084,7 +6084,7 @@
 6159|Cambridge House N22|Mayes Road|N22|8||||109
 6160|Cambridge House SW15|Upper Richmond Road|SW15|8|2|51.4604868908721|-0.214982275792928|.
 6161|Cambridge Square|Norfolk Crescent|W2|1|115|51.5163229933014|-0.168102832014585|.
-6162|Cambridge Theatre|Seven Dials|WC2|2|242|51.513715183784|-0.126797350078049|.
+6162|Cambridge Theatre|Seven Dials|WC2|2|243|51.513715183784|-0.126797350078049|.
 6163|Cambridge Theatre Stage Door|Shelton Street|WC2|54|19|51.5134098076282|-0.126325100498468|.
 6164|Camden Ambulance Station|Cressy Road|NW3|29|130|51.553834067351474|-0.16120832394207335|.
 6165|Camden Art School - GONE|Kidderpore Avenue|NW3|27|4|51.55766359650834|-0.19435918326640908|19
@@ -6423,7 +6423,7 @@
 6501|Brownlow House|High Holborn|WC1|8||||50
 6502|Browns Club WC2|Great Queen Street|WC2|24|4|||4
 6503|Browns Club E2|Hackney Road|E2|24|164|51.52723618695009|-0.0777810462981388|1
-6504|Browns Hotel|Albemarle Street/Oldest Hotel|W1|4|206|51.509168990045495|-0.14231911119903762|.
+6504|Browns Hotel|Albemarle Street/Oldest Hotel|W1|4|207|51.509168990045495|-0.14231911119903762|.
 6505|Browns Restaurant E14|West India Quay Hertsmere Road|E14|7|2|51.5070774077805|-0.0220850596706712|.
 6506|Browns Restaurant EC2|Old Jewry|EC2|7|13|51.51419927829659|-0.09075667822594045|8
 6507|Browns Restaurant N1 - GONE|Islington Green|N1|7|13|51.5365117355909|-0.102849390369208|7
@@ -6571,7 +6571,7 @@
 6653|Bures House|Offord Road|N1|8||||142
 6654|Burford House|Belsize Road|NW6|8||||79
 6655|Burgess Park|Albany Road/Camberwell Road|SE5|45|211|51.4823355109447|-0.0932703059772311|.
-6656|Burgh House and Hampstead Museum|New End Square|NW3|37|135|51.55817839906905|-0.175137789284386|.
+6656|Burgh House and Hampstead Museum|New End Square|NW3|37|137|51.55817839906905|-0.175137789284386|.
 6657|Burghers of Calais Monument|Millbank/Abingdon Street/Victoria Twr Gardens|SW1|9|2|51.4971650589277|-0.125417590617265|.
 6658|Burghley Tower|Trinity Way|W3|53||||.
 6659|Burgoyne House|Strand|WC2|8||||419a
@@ -7640,7 +7640,7 @@
 7744|Discovery Business Park|Saint James's Road|SE16|101||||.
 7745|Dish Dash Restaurant W1|Goodge Street|W1|7||||.
 7746|Disney Place|Marshalsea Road|SE1|5|5|51.5017950181174|-0.0946113103391855|.
-7747|Disney Store W1|Oxford Street|W1|57|56|51.5145704654929|-0.148284860542305|360-366
+7747|Disney Store W1|Oxford Street|W1|57|57|51.5145704654929|-0.148284860542305|360-366
 7748|Disneyland Paris (Beaumont House)|Kensington Village Avenueonmore Road|W14|8||||.
 7749|Dispensaire Francais|Osnaburgh Street|NW1|58|2|||.
 7750|Dispensary PH|Camberwell New Road|SE5|46|4|51.4743171835376|-0.0936743276622787|.
@@ -8975,7 +8975,7 @@
 9102|Forest Hill Pools|Dartmouth Road|SE23|47|294|51.4362515473141|-0.0553474911154428|.
 9103|Forest Hill Road|Peckham Rye/Honor Oak Park|SE22|5|43|51.4511244453644|-0.0587063768128626|.
 9104|War Widows Association of Great Britain|Borough High Street|SE1|37|10|51.502209015014515|-0.09233644644435457|199
-9105|Forest Hill Station|Devonshire Road|SE23|31|956|51.439315150171566|-0.05332004931594629|.
+9105|Forest Hill Station|Devonshire Road|SE23|31|957|51.439315150171566|-0.05332004931594629|.
 9106|Forest Road|Kingsland Road|E8|5|28|51.5440228730059|-0.0684510534986371|.
 9107|Forest Trading Estate|South Access Road|E17|28||||.
 9108|Foresters Hall|Westow Street|SE19|16|104|51.4186934352528|-0.0824539601886776|.
@@ -9033,7 +9033,7 @@
 9160|Fountain Square|Bullied Way|SW1|1|4|51.4931764688824|-0.146526569696384|.
 9161|Fountains Abbey PH|Praed Street|W2|46|6|51.51693919282195|-0.17292228123985273|.
 9162|Four Lanterns Restaurant|Muswell Hill Broadway|N10|7||||.
-9163|Four Seasons Hotel at Park Lane W1|Hamilton Place|W1|4|216|51.50441788806718|-0.1498975419521838|.
+9163|Four Seasons Hotel at Park Lane W1|Hamilton Place|W1|4|217|51.50441788806718|-0.1498975419521838|.
 9164|Four Seasons Green|Caxton Grove|E3|58||||.
 9165|Canary Riverside Plaza Hotel|Westferry Circus|E14|4|154|51.50653744265909|-0.02762921878909728|46
 9166|Four Seasons Hotel NW1|Gloucester Place|NW1|4||||173
@@ -9881,7 +9881,7 @@
 10016|Greenwich South Street|Greenwich High Road/Blackheath Road|SE10|5|17|51.4750120687817|-0.0134517567472758|.
 10017|Greenwich Station|Greenwich High Road|SE10|31|101|51.4780178130353|-0.013252579864409|.
 10018|Greenwich Studio (Prince of Orange)|Greenwich High Road|SE10|59||||189
-10019|Greenwich Theatre|Crooms Hill|SE10|2|284|51.4793755478426|-0.00786108053036472|.
+10019|Greenwich Theatre|Crooms Hill|SE10|2|285|51.4793755478426|-0.00786108053036472|.
 10020|Greenwich Town Social Club - GONE|Blackwall Lane|SE10|24|54|51.4867124940347|0.00748533650726912|2-12
 10021|Greenwich University|King William Walk|SE10|27|110|51.4821246780566|-0.00861128090996255|.
 10022|Greenwich View|Millharbour|E14|5|10|51.4960495615941|-0.0191923990377862|.
@@ -10326,7 +10326,7 @@
 10469|Harrington Square|Hampstead Road|NW1|1|33|51.5333604052246|-0.138536752705647|.
 10470|Harrison Wharf|Saint Katharines Way|E1|100||||.
 10471|Harrodian School|Lonsdale Road|SW13|27|521|51.48162707945534|-0.2464784050978381|9
-10472|Harrods|Brompton Road|SW3|57|398|51.4997402219537|-0.16324527003557|87-135
+10472|Harrods|Brompton Road|SW3|57|399|51.4997402219537|-0.16324527003557|87-135
 10473|Harrods Car Park|Brompton Place|SW3|77|73|51.498217038495|-0.16386354685801|.
 10474|Harrods Furniture Depository - GONE|Arundel Terrace|SW13|58||||.
 10475|Harrods Sports Ground|Lonsdale Road|SW13|97|2|||.
@@ -10582,7 +10582,7 @@
 10728|Holborn Tower|New Oxford Street|WC1|53|5|51.51736451832405|-0.12274083986239692|.
 10729|Holbrook House SW2|Christchurch Road|SW2|8||||.
 10730|Highgate Heights|Shepherds Hill|N6|58|9|||77
-10731|John Harvard Library|Borough High Street|SE1|39|127|51.50196078614876|-0.09225358054035922|.
+10731|John Harvard Library|Borough High Street|SE1|39|128|51.50196078614876|-0.09225358054035922|.
 10732|Harvest Lodge|Penton Street|N1|20|1|||53
 10733|Harvey Floorbanger|Lavender Hill|SW11|58||||45
 10734|Harvey Nichols|Knightsbridge/Sloane Street/Seville Street|SW1|57|60|51.5017886756094|-0.159938138229563|.
@@ -10681,7 +10681,7 @@
 10829|Hermits Cave PH|Camberwell Church Street|SE5|46|7|51.4738497084817|-0.090680220961028|.
 10830|Herne Hill Athletic Ground|Burbage Road|SE24|47|5|51.449818971665614|-0.09280267755369698|.
 10831|Herne Hill House|Railton Road|SE24|8||||192
-10832|Herne Hill Velodrome|Burbage Road|SE24|23|474|51.44973181195707|-0.09040343191457871|.
+10832|Herne Hill Velodrome|Burbage Road|SE24|23|475|51.44973181195707|-0.09040343191457871|.
 10833|Herne Hill Station|Railton Road|SE24|31|937|51.4531624331758|-0.102445734090466|.
 10834|Heron House SE23|Dartmouth Road|SE23|8||||32
 10835|Heron House NW1|Marylebone Road|NW1|8||||.
@@ -11023,7 +11023,7 @@
 11173|Hunts Slip Road|College Road/Alleyn Park|SE21|5|78|51.4366152630191|-0.0838628791512153|.
 11174|Hurley House E2|Arnold Circus|E2|8||||.
 11175|Hurley House SE22|Homestall Road|SE22|8||||.
-11176|Hurlingham Club|Ranelagh Gardens|SW6|24|2014|51.46738682743|-0.2048515658974787|.
+11176|Hurlingham Club|Ranelagh Gardens|SW6|24|2016|51.46738682743|-0.2048515658974787|.
 11177|Hurlingham Court|Ranelagh Gardens|SW6|20|2|||.
 11178|Hurlingham Square|Peterborough Road|SW6|1|79|51.46708713309205|-0.19415699786263044|.
 11179|Hurlingham Studios|Ranelagh Gardens|SW6|59|1|51.4677360198901|-0.208159568981172|.
@@ -11048,7 +11048,7 @@
 11199|Hyde Park Mansions|Cabbell Street|NW1|20|3|||.
 11200|Hyde Park Place|Clarendon Place/Stanhope Place/Bayswater Road|W2|5|6|51.5125763518577|-0.166996436788929|.
 11201|Hyde Park Residence|Park Lane|W1|20|1|51.50756283636795|-0.15317010175902968|.
-11202|Hyde Park Square|Hyde Park Street|W2|1|109|51.513986720980334|-0.168214672817847|.
+11202|Hyde Park Square|Hyde Park Street|W2|1|110|51.513986720980334|-0.168214672817847|.
 11203|Hyde Park Towers|Porchester Terrace|W2|58|16|51.5107843641345|-0.183603940054706|.
 11204|Hyde Park Towers Hotel - GONE|Inverness Terrace|W2|4||51.5124159115244|-0.186584221650017|41-45
 11205|Hyde Park West Hotel - GONE|Pembridge Square|W2|4|12|51.5120373473927|-0.194428329386311|25
@@ -11453,7 +11453,7 @@
 11608|Jack Horner PH|Tottenham Court Road|WC1|46|19|51.51873738974646|-0.1321786538529906|.
 11609|Jack of Clubs|Ossory Road|SE1|24||||47
 11610|Jack Stamps PH SE27|Norwood Road|SE27|46||||.
-11611|Jack Straws Castle|North End Way|NW3|46|158|51.56250741355764|-0.18010828792305525|.
+11611|Jack Straws Castle|North End Way|NW3|46|159|51.56250741355764|-0.18010828792305525|.
 11612|Jack Taylor School (GONE)|Ainsworth Way|NW8|27||51.5398463623906|-0.181400512951151|10
 11613|Jackdaw and Stump PH|Homerton High Street|E9|46||||.
 11614|Jackman House|Watts Street|E1|8|2|51.50502420610226|-0.05814176793016929|.
@@ -11762,7 +11762,7 @@
 11925|K-Club|Upper Richmond Road|SW15|24||||200
 11926|KDB Bank|Fenchurch Street|EC3|60||||31
 11927|Keats House|Saint Thomas Street|SE1|8|12|51.50476670680484|-0.0886897502349654|26
-11928|Keats House Museum|Keats Grove|NW3|18|504|51.5558262526238|-0.167772592359303|.
+11928|Keats House Museum|Keats Grove|NW3|18|505|51.5558262526238|-0.167772592359303|.
 11929|Keats House SE1|Saint Thomas Street|SE1|8||||.
 11930|Keats Wine Bar|Abbey Road|NW10|109||||.
 11931|Keepier Wharf|Narrow Street|E14|100||||.
@@ -12162,7 +12162,7 @@
 12334|King Edward Building|King Edward Street|EC1|20||||.
 12335|King Edward Memorial Park|Glamis Road/The Highway|E1|45|25|51.5091007054512|-0.04964842260094193|.
 12336|King Edward VII Gallery|Montague Place|WC1|112|427|51.520358812969974|-0.1274912587848093|.
-12337|King Edward VII Hospital for Officers|Beaumont Street|W1|35|838|51.52086368176353|-0.15037572087513418|.
+12337|King Edward VII Hospital for Officers|Beaumont Street|W1|35|839|51.52086368176353|-0.15037572087513418|.
 12338|King Edward VII PH|Broadway|E15|46||||.
 12339|King Edward Walk|Lambeth Road/Westminster Bridge Road|SE1|5|3|||.
 12340|King Edwards Road|Mare Street|E8|5|6|51.5378913500886|-0.0550478716403924|.
@@ -12178,7 +12178,7 @@
 12351|King of Belgium|Tooley Street|SE1|58||||186
 12352|King of Bohemia|Hampstead High Street|NW3|58||||10
 12353|King of Diamonds PH|Greville Street|EC1|46||||.
-12354|King Solomans Hotel|Golders Green Road|NW11|4|241|51.5753519651864|-0.2040162605198858|155-159
+12354|King Solomans Hotel|Golders Green Road|NW11|4|242|51.5753519651864|-0.2040162605198858|155-159
 12355|King Square|Lever Street|EC1|1|209|51.52739195567382|-0.0979714778859611|.
 12356|King Square Estate|Central Street|EC1|28|2|||.
 12357|King William House|Eastcheap|EC3|8||||2a
@@ -12711,7 +12711,7 @@
 12895|Level 3 Communications|Prescot Street|E1|58|7|||.
 12896|Level Crossing Centre|Sheen Lane|SW14|23||||.
 12897|Latimer House E9|Morning Lane|E9|8|1|||.
-12898|Latimer Road Station|Bramley Road|W10|31|725|51.51322098178613|-0.2174606948648085|.
+12898|Latimer Road Station|Bramley Road|W10|31|726|51.51322098178613|-0.2174606948648085|.
 12899|Latimer Road|Oxford Gardens/North Pole Road|W10|5|21|51.5176547594975|-0.223940659010746|.
 12900|Latin 1/4 Bar|Broadway|E15|46|1|||27
 12901|Latin American Studies Institute of|Tavistock Square|WC1|37|1|||.
@@ -12895,7 +12895,7 @@
 13084|Larry Craze Gallery|Clerkenwell Green|EC1|112||||.
 13085|Las Estrellas|Inverness Mews|W2|58||||2
 13086|Last Days of the Raj|Drury Lane|WC2|58||||22
-13087|Latchmere Leisure Centre|Burns Road|SW11|23|500|51.471252278878886|-0.1639962941408157|.
+13087|Latchmere Leisure Centre|Burns Road|SW11|23|501|51.471252278878886|-0.1639962941408157|.
 13088|Latchmere Road|Elspeth Road|SW11|5|26|51.4675865450451|-0.162914165715389|.
 13089|Latchmere Theatre - GONE|Battersea Park Road|SW11|2|58|51.4721127446814|-0.165516265224852|.
 13090|Lately Nightclub (GONE)|West End Lane|NW6|24|5|51.5461598672268|-0.191320441568192|175
@@ -13971,7 +13971,7 @@
 14177|Middleton House E8|Middleton Road|E8|8||||78
 14178|Middleton Road|Kingsland Road/Lansdowne Drive|E8|5|22|51.5404514762557|-0.0706132298161255|.
 14179|Middleton Wharf|Wapping High Street|E1|100|1|||.
-14180|Middleway|Kingsley Way|NW11|5|28|51.5827856748012|-0.184375061744189|.
+14180|Middleway|Kingsley Way|NW11|5|29|51.5827856748012|-0.184375061744189|.
 14181|Midland Bank|Poultry|EC2|60||||27
 14182|Midland Bank Rowing Club|Embankment|SW15|96|1|51.469920077282794|-0.22073928555181072|.
 14183|Hotel|Warwick Road|SW5|4|1|||.
@@ -15110,7 +15110,7 @@
 15338|North Greenwich Station|Millennium Way|SE10|31|139|51.5006332796508|0.00358748997197011|.
 15339|North Hill|North Road|N6|5|86|51.5759316640863|-0.150995979845261|.
 15340|North Islington Law Centre|Hornsey Road|N7|23||||161
-15341|North Kensington Fire Station|Ladbroke Grove|W10|30|103|51.52185037549414|-0.21208431421878707|.
+15341|North Kensington Fire Station|Ladbroke Grove|W10|30|104|51.52185037549414|-0.21208431421878707|.
 15342|North Kensington Law Centre|Golborne Road|W10|23||||.
 15343|North Kensington Library|Ladbroke Grove|W11|39|2|||.
 15344|North London|Stoke Newington Road|N16|58||||82
@@ -15156,7 +15156,7 @@
 15384|Normandie Hotel|Sussex Gardens|W2|4||||96
 15385|Normandie Suites|Knightsbridge|SW1|58||||165
 15386|Oenisko Polske|Exhibition Road|SW7|58|7|51.49903327273215|-0.17388729492766136|55
-15387|Paddington Recreation Ground|Grantully Road/Morshead Road|W9|58|345|51.52933444666744|-0.19333110320427171|.
+15387|Paddington Recreation Ground|Grantully Road/Morshead Road|W9|58|346|51.52933444666744|-0.19333110320427171|.
 15388|Paddington Sports Club|Castellain Road|W9|24|66|51.52672193649872|-0.1900019650842238|.
 15389|Paddington Station|Bishops Bridge Road|W2|31|2419|51.51800520353443|-0.17906561779423036|.
 15390|Paddington Train Crash Memorial|Canal Way|W10|9||||.
@@ -15218,7 +15218,7 @@
 15448|Norfolk Square|London Street|W2|1|652|51.51589500101035|-0.17343067676434423|.
 15449|Norfolk Towers Hotel|Norfolk Place|W2|4|33|51.51630567550686|-0.17198740928862044|34
 15450|Norland House|Queensdale Crescent|W11|8||||9
-15451|Norland Square|Holland Park Avenue|W11|1|540|51.50671325102172|-0.21017330741601328|.
+15451|Norland Square|Holland Park Avenue|W11|1|541|51.50671325102172|-0.21017330741601328|.
 15452|Norman Butler House|Ladbroke Grove|W10|8||||320
 15453|Norman House|Strand|WC2|8||||105
 15454|North London Performing Arts Centre|Saint James's Lane|N10|23|6|51.58834694504747|-0.1393532324327516|76
@@ -16421,9 +16421,9 @@
 16685|Putney Cricket Club |Lower Richmond Road|SW15|24|1|51.4688782390522|-0.231534075116726|.
 16686|Putney Exchange Shopping Centre|Putney High Street|SW15|57|328|51.46317756984723|-0.21612797033335823|.
 16687|Putney Hospital|Lower Richmond Road/Commondale|SW15|35||||.
-16688|Putney Leisure Centre|Dryburgh Road|SW15|23|548|51.46397519529791|-0.22877610029075807|.
+16688|Putney Leisure Centre|Dryburgh Road|SW15|23|549|51.46397519529791|-0.22877610029075807|.
 16689|Putney Leisure Centre (Dryburgh Hall)|Dryburgh Road|SW15|23||||.
-16690|Putney Library|Disraeli Road|SW15|39|1373|51.46168000438542|-0.21609529792499116|.
+16690|Putney Library|Disraeli Road|SW15|39|1374|51.46168000438542|-0.21609529792499116|.
 16691|Putney Lower Common Cemetery|Lower Richmond Road|SW15|22|95|51.46993795507824|-0.23045461513988583|.
 16692|Putney Police Shop|Putney High Street|SW15|57||||.
 16693|Putney Police Station - GONE|Upper Richmond Road/was|SW15|15|2|||.
@@ -17085,7 +17085,7 @@
 17363|Ronald McDonald House|Snowfields|SE1|8||||.
 17364|Ronaldshaw|Marquis Road|N4|58||||.
 17365|PC Ronan McCloskey Memorial|Denzil Road|NW10|42|16|51.5510681602774|-0.241940980963449|.
-17366|Ronnie Scotts Club|Frith Street|W1|24|663|51.51340936664485|-0.1314840319844803|47
+17366|Ronnie Scotts Club|Frith Street|W1|24|664|51.51340936664485|-0.1314840319844803|47
 17367|Roof Gardens|Derry Street|W8|5|32|51.5011445733328|-0.191294708499417|.
 17368|Roofing Institute of|Weymouth Street|W1|37||||24
 17369|Rookery|Covington Way|SW16|58|3|51.42135247294534|-0.11798268930681112|.
@@ -17318,7 +17318,7 @@
 17602|Royal Military Police TA|Upper Tulse Hill|SW2|19|27|51.444382638649174|-0.11408178834558924|132
 17603|Royal Mint Court EC3|East Smithfield|EC3|20|101|51.50912232337108|-0.07323114470488082|.
 17604|Royal Mint HQ|Grosvenor Gardens|SW1|36||||7
-17605|Royal National Hotel|Bedford Way|WC1|4|219|51.5234383537627|-0.127868893966729|.
+17605|Royal National Hotel|Bedford Way|WC1|4|220|51.5234383537627|-0.127868893966729|.
 17606|Royal National Institute for Deaf People - GONE|Featherstone Street|EC2|37|73|51.5245868270577|-0.0884587590524433|.
 17607|RNIB Royal National Institute for the Blind|Pentonville Road|N1|37|185|51.53162776805057|-0.1148202330057764|154
 17608|Royal National Institute for the Deaf Hostel|Green Lanes|N4|4||||321
@@ -17340,7 +17340,7 @@
 17624|Royal Observatory Greenwuch|Blackheath Avenue|SE10|37|135|51.476795534011345|-0.0005161901537163348|.
 17625|Royal Ocean Racing Club|Saint James's Place|SW1|24|68|51.50591863459892|-0.1407374024556141|20
 17626|Royal Opera Arcade|Pall Mall/Charles II Street|SW1|58|34|51.50761588150051|-0.13177441914447235|.
-17627|Royal Opera House|Bow Street|WC2|2|495|51.513066798165156|-0.12200056588282668|.
+17627|Royal Opera House|Bow Street|WC2|2|496|51.513066798165156|-0.12200056588282668|.
 17628|Royal Overseas League|Park Place|SW1|37|244|51.506207896345416|-0.14051199726114172|.
 17630|Royal Park Hotel N4|Seven Sisters Road|N4|4||||250
 17631|Royal Park Hotel W2|Westbourne Terrace|W2|4|5|||3
@@ -18305,7 +18305,7 @@
 18607|Southern Railway Stables|Saint James's Road|SE1|99||||.
 18608|Southfields Lawn Tennis Club|Gressenhall Road|SW18|71|53|51.452418086535566|-0.2076371891513352|.
 18609|Southfields Library|Wimbledon Park Road|SW19|39|217|51.443277711875425|-0.20839651836843703|.
-18610|Southfields Station|Wimbledon Park Road|SW18|31|1701|51.44533085135766|-0.20642660429002424|.
+18610|Southfields Station|Wimbledon Park Road|SW18|31|1704|51.44533085135766|-0.20642660429002424|.
 18611|Southfleet|Malden Road|NW5|58||||.
 18612|Southgate Auction Rooms|Southgate High Street|N14|6||||55
 18613|Southgate Museum|Broomfield Park|N13|18||||.
@@ -18469,7 +18469,7 @@
 18771|Springfield|Clapton Common/Mount Pleasant Lane|E5|5|57|51.5679506204082|-0.0611887201496275|.
 18772|Springfield House|Glenburnie Road|SW17|58||||61
 18773|Springfield Estate|Union Grove|SW8|28||||.
-18774|Springfield Hospital|SpringField Drive|SW17|35|1306|51.436695874031734|-0.16954696696946178|.
+18774|Springfield Hospital|SpringField Drive|SW17|35|1307|51.436695874031734|-0.16954696696946178|.
 18775|Springfield Hotel|Sussex Gardens|W2|4|2|||154
 18776|Springfield Methodist Church|Wandsworth Road|SW8|10|2|51.475896323684445|-0.13114758460256448|200
 18777|Springfield Motor Racing Club for Young People|Big Hill|E5|24||51.5685787756784|-0.0546203483201668|.
@@ -18495,7 +18495,7 @@
 18797|Saint Alphage House|Fore Street|EC2|8|2|||2
 18798|Saint Andrew by the Wardrobe Church|Queen Victoria Street|EC4|10|2|51.51221567968754|-0.10155268259866046|.
 18799|Saint Andrews (Bobolas)|Leysfield Road|W12|58||||4
-18800|Saint Andrews Holborn Church|Saint Andrews Street|EC4|10|11|51.51727655817709|-0.10663372911436364|.
+18800|Saint Andrews Holborn Church|Saint Andrews Street|EC4|10|12|51.51727655817709|-0.10663372911436364|.
 18801|Saint Andrews Court House|Saint Andrew Street|EC4|20||||7
 18802|Saint Andrews Golf Club|Allhallows Lane|EC4|24||||.
 18803|Saint Andrews Hospital|Devas Street|E3|35|20|||.
@@ -20691,7 +20691,7 @@
 21054|University Womens Club|Audley Square|W1|24|75|51.50726337020938|-0.15062682603994584|2
 21055|Unversity College ( Private Wing )|Grafton Way|WC1|27||||25
 21056|Up All Night|Fulham Road|SW10|58||||325
-21057|Up the Creek Club|Creek Road|SE10|24|105|51.48127355309085|-0.011620625549910831|302
+21057|Up the Creek Club|Creek Road|SE10|24|106|51.48127355309085|-0.011620625549910831|302
 21058|Upland Road|North Cross Road|SE22|5|23|51.4573459165994|-0.0697560789928664|.
 21059|Uplands Trading Estate|Blackhorse lane|E17|28||||.
 21060|Upper Bistro|Upper Street|N1|7||||349
@@ -20933,7 +20933,7 @@
 21298|Trevi Restaurant|Holloway Road|N5|7||||.
 21299|West Norwood Fire Station|Knights Hill|SE27|30|622|51.426145363308|-0.105218873345576|210
 21300|West Norwood Snooker Club|Norwood Road s/d Waylett Place|SE27|47||51.43461271811|-0.10403577137972|348-352
-21301|West Norwood Station|Knights Hill/Hannen Road|SE27|31|418|51.4318165154792|-0.10372876145194272|.
+21301|West Norwood Station|Knights Hill/Hannen Road|SE27|31|419|51.4318165154792|-0.10372876145194272|.
 21302|West Norwood Tennis and Squash Club - GONE|Cheviot Road/Knights Hill|SE27|71|182|51.4287929878871|-0.104502687736419|.
 21303|West One Shopping Centre|Davies Street/Oxford Street|W1|23|29|51.51422175321206|-0.1494095086957994|.
 21304|West One Television|Bateman Street|W1|40||||10
@@ -21007,7 +21007,7 @@
 21373|Westfield Apartments|Kidderpore Avenue|NW3|20|2|51.556991381229466|-0.19307613372802737|.
 21374|Westgate House|Holborn|EC1|8||||.
 21375|Westlake|Rotherhithe New Road|SE16|58||||.
-21376|London Heliport Edmiston|Bridges Court Road|SW11|58|1085|51.46908039896871|-0.1791249966572774|.
+21376|London Heliport Edmiston|Bridges Court Road|SW11|58|1086|51.46908039896871|-0.1791249966572774|.
 21377|Westland Hotel|Bayswater Road|W2|4|9|||154
 21378|Westminster|Seymour Place|W1|58||||163a
 21379|Westminster (Middlesex Guildhall)|Little George Street Broad Sanctuary|SW1|58||||.
@@ -21099,7 +21099,7 @@
 21465|UPS Express Service Centre|Berkeley Street|W1|23|1|||.
 21466|Upstairs at the Landor Theatre|Landor Road|SW9|2||||.
 21468|Upstairs Downstairs Restaurant|West End Lane|NW6|7||||.
-21469|South London Islamic Centre|Mitcham Lane|SW16|11|29|51.4284743788416|-0.13200893998146057|8
+21469|South London Islamic Centre|Mitcham Lane|SW16|11|30|51.4284743788416|-0.13200893998146057|8
 21470|Upstream Theatre Club|Short Street|SE1|24|1|51.50241312502766|-0.10675856986949754|.
 21471|Urban Bar E1|Whitechapel Road|E1|46|7|||.
 21472|Urban Bar E14|Three Colt Street|E14|46|8|51.5112923658002|-0.0298120800752955|.
@@ -21356,7 +21356,7 @@
 21725|Vanbern House|Prince of Wales Road|NW5|8||||83
 21726|Vanbrugh Castle|Maze Hill|SE10|58|1|51.480062719216|0.00476333164955545|.
 21727|Vanbrugh Court|Wincott Street|SE11|20||||.
-21728|Radisson Blu London South Kensington (Was Vanderbilt)|Cromwell Road|SW7|4|741|51.49524024920619|-0.1817826684694037|76
+21728|Radisson Blu London South Kensington (Was Vanderbilt)|Cromwell Road|SW7|4|743|51.49524024920619|-0.1817826684694037|76
 21729|Vanderbilt Racquet Club|Sterne Street|W12|24||51.5054570938673|-0.220053726421254|31
 21730|Vandon House Hotel|Vandon Street|SW1|4|3|51.4987027238434|-0.136668578996497|1
 21731|Vanneck Square|Huntingfield Road|SW15|1|8|51.4576605805678|-0.239283044853142|.
@@ -21475,7 +21475,7 @@
 21846|Tulse Hill|Effra Road|SW2|5|34|51.4524904598415|-0.113484225719382|.
 21847|Tulse Hill Estate|Tulse Hill|SW2|28|18|51.4490577498747|-0.113193917765166|.
 21848|Tulse Hill Hotel|Norwood Road|SE24|4|42|51.44113830191973|-0.1066444302874276|150
-21849|Tulse Hill Station|Station Rise|SE27|31|626|51.439998846532994|-0.10563660722273688|.
+21849|Tulse Hill Station|Station Rise|SE27|31|627|51.439998846532994|-0.10563660722273688|.
 21850|Tulse Hill Tavern|Norwood Road|SE24|46||||150
 21851|Tumblers Wine Bar|Kensington High Street|W8|109||||.
 21852|Tunis Airlines|Sackville Street|W1|66||||24
@@ -21513,7 +21513,7 @@
 21884|Turnmills Club - GONE|Clerkenwell Road|EC1|24|19|51.5221519730734|-0.106039251861716|63
 21885|Turnpike House|Goswell Road|EC1|8|17|51.5273873181586|-0.100268956424887|240
 21886|Turnpike House PH|Tottenham High Road|N16|46||||.
-21887|Turnpike Lane|Green Lanes|N8|5|51|51.58999557175152|-0.10454207826494212|.
+21887|Turnpike Lane|Green Lanes|N8|5|52|51.58999557175152|-0.10454207826494212|.
 21888|Turnpike Lane Station|Green Lanes/Westbury Avenue|N15|31|446|51.59047191752718|-0.10255585496235509|.
 21889|Turpentine Lane|Lupus Street|SW1|5|31|51.4872048932184|-0.145784203244352|.
 21890|Turpin House|Battersea Park Road|SW8|8||||.
@@ -21585,7 +21585,7 @@
 21956|Westpoint Trading Estate|Alliance Road|W3|28||||.
 21957|Westside Fitness Club|Kensington High Street|W8|98||||201
 21958|Westway Centre|Wood Lane|W12|23||||.
-21959|Westway Sports Centre|Crowthorne Road|W10|47|406|51.51600649548692|-0.21839877861740745|20
+21959|Westway Sports Centre|Crowthorne Road|W10|47|407|51.51600649548692|-0.21839877861740745|20
 21960|Westway Studios|Olaf Street|W10|59||||.
 21961|Hammersmith Library|Shepherds Bush Road|W6|39|28|51.49460125091338|-0.2236441349813606|.
 21962|Westwell|Prince of Wales Road|NW5|58||||162
@@ -21647,7 +21647,7 @@
 22024|Tregaron Hotel|Norfolk Square|W2|4||||17
 22025|Tregunter Road|Redcliffe Gardens|SW10|5|46|51.4872895107388|-0.185104752399827|.
 22026|Trelawney Estate|Morning Lane|E9|28||||.
-22027|Trellick Tower|Golborne Road|W10|53|426|51.5238269049076|-0.206184864832433|5
+22027|Trellick Tower|Golborne Road|W10|53|427|51.5238269049076|-0.206184864832433|5
 22028|Trellis Square|Malmesbury Road|E3|1|8|51.52915995633522|-0.028402017084301935|.
 22029|Tremadoc Road|Clapham High Street/Bedford Road|SW4|5|21|51.462092957890334|-0.12948750416735538|.
 22030|Trematon House|Kennings Way w/o Kennington Park Road|SE11|8||||.
@@ -24423,7 +24423,7 @@
 24842|Georgetown Restaurant|London Bridge Street|SE1|7|6|51.5048573299775|-0.0872833295611231|8-18
 24843|Rothbury Road|Chapman Road/White Post Lane|E9|5|1|||.
 24844|Moor Lane EC2|Chiswell Street/Fore Street|EC2|5|16|51.5191152254277|-0.0904449954822528|.
-24845|London Street W2|South Wharf Road/Sussex Gardens|W2|5|30|51.5158399945124|-0.174740266120883|.
+24845|London Street W2|South Wharf Road/Sussex Gardens|W2|5|31|51.5158399945124|-0.174740266120883|.
 24846|Sans Walk|Clerkenwell Close/Woodbridge Street|EC1|5|37|51.5245446086499|-0.105192532823633|.
 24847|Crisis|Commercial Street|E1|37|14|51.5174123990005|-0.0733881622355126|66
 24848|Bourdon Street|Davies Street|W1|5|17|51.511288115055|-0.145240018567092|.
@@ -25063,7 +25063,7 @@
 25500|Lower Addison Gardens|Addison Gardens/Holland Villas Road|W14|5|35|51.5030510927094|-0.213182344058809|.
 25501|Kora by Beaufort House Bar|Kings Road|SW3|46|32|51.484487035592224|-0.1759292157369214|354
 25502|Colet Court SW13|Lonsdale Road/Saint Pauls Prep School|SW13|27|2|51.4885862241851|-0.239080609558535|.
-25503|11 Cadogan Gardens Hotel|Cadogan Gardens|SW3|4|16|51.4936536450331|-0.15940872320550642|11
+25503|11 Cadogan Gardens Hotel|Cadogan Gardens|SW3|4|17|51.4936536450331|-0.15940872320550642|11
 25504|Pavillion Street|Pavillion Road/Sloane Street|SW1|5||||.
 25505|Start of the Marathon (Red Route)|Charlton Way|SE3|43|11|||.
 25506|All Hallows Church NW3|Savernake Road|NW3|10|1|||.
@@ -25223,7 +25223,7 @@
 25662|Wellington Terrace|Waterman Way|E1|5||||.
 25663|Saint Martins Court EC4|Paternoster Row|EC4|20|1|51.5147133219279|-0.0978405883043787|.
 25664|Eleanor Close|Needleman Street|SE16|20|1|||.
-25665|Peckhamplex Cinema|Rye Lane|SE15|91|63|51.470643528844235|-0.06889881020759422|95a
+25665|Peckhamplex Cinema|Rye Lane|SE15|91|64|51.470643528844235|-0.06889881020759422|95a
 25666|Hampstead Garden Centre|Iverson Road|NW6|43|5|||163
 25667|Horse Yard|Essex Road|N1|5||||.
 25668|Sherwood Street Taxi Rank|Sherwwod Street/Glasshouse Street|W1|61|3|||.
@@ -25363,7 +25363,7 @@
 25803|Lampern Square|Nelson Gardens|E2|1||||.
 25804|City Lit -Arts Educational Centre|Keeley Street|WC2|27|74|51.514856061815955|-0.12004590260665464|1-10
 25805|Puzzle PH EC4|Fleet Place/Holborn Viaduct|EC4|46||||1
-25806|Fleet Road|South End Green/Mansfield Road|NW3|5|40|51.5533587540063|-0.161039699412613|.
+25806|Fleet Road|South End Green/Mansfield Road|NW3|5|41|51.5533587540063|-0.161039699412613|.
 25807|Royal Society of Art Rear Entrance|Durham House Street|WC2|117|1|||.
 25808|The Castelnau (formerly Porterhouse)|Castelnau|SW13|46||||201
 25809|Cuba Embassy Rear Entrance|Grape Street|WC1|3||||.
@@ -26614,7 +26614,7 @@
 27076|Vietnam Restaurant - GONE|King William Walk|SE10|7|2|51.4808730442467|-0.00794353710751095|17-18
 27077|Phyliss Pearsall Blue Plaque|Court Lane Gardens|SE21|41||||3
 27078|Ladywell Tavern|Ladywell Road|SE13|7|2|51.456440511287774|-0.021411749524331863|80
-27079|Gee Street Courthouse Clerkenwell and Shorditch County Court|Gee Street|EC1|38|133|51.52456447277714|-0.09776951841117947|29-41
+27079|Gee Street Courthouse Clerkenwell and Shorditch County Court|Gee Street|EC1|38|134|51.52456447277714|-0.09776951841117947|29-41
 27080|Brentfield Gardens|Tilling Road|NW2|5|1|51.5765093577161|-0.217084893526172|.
 27081|Greenwich Picture House|Greenwich High Road|SE10|8|44|51.4794872399051|-0.00970265274476745|.
 27082|Ashley Place|Carlisle Place/Morpeth Terrace|SW1|5|6|51.4961778200591|-0.141103112702921|.
@@ -27563,7 +27563,7 @@
 28050|Providores Restaurant|Marylebone High Street|W1|7|96|51.51897115000621|-0.15184437375833434|109
 28051|Galvin Restaurant|Baker Street|W1|7|36|51.5192259057417|-0.156047310868945|66
 28052|Flames Restaurant|Maiden Lane|WC2|7||||.
-28053|Church of Scientology of London EC4|Queen Victoria Street|EC4|10|39|51.51221428402415|-0.10029867125123348|.
+28053|Church of Scientology of London EC4|Queen Victoria Street|EC4|10|41|51.51221428402415|-0.10029867125123348|.
 28054|Douglas Way|Amersham Vale|SE8|5|42|51.4776078943875|-0.0317950913053378|.
 28055|The Spotlight|Leicester Place|WC2|24|3|||7
 28056|Shiloh Pentecostal Church|Ashwin Street|E8|10|2|51.546678964805686|-0.07462799295008526|.
@@ -28444,7 +28444,7 @@
 28946|Spectator Bar|Little Britain|EC1|46|5|51.5170416939816|-0.0983096048733412|6
 28947|Three Days of Rain|Shaftesbury Avenue/Apollo Theatre|W1|65|1|||.
 28948|Saint Johns Church E15|Stratford High Street/Broadway|E15|10||||.
-28949|Sanctum Soho Hotel|Warwick Street|W1|4|172|51.511532009427114|-0.13835217097266578|18-22
+28949|Sanctum Soho Hotel|Warwick Street|W1|4|173|51.511532009427114|-0.13835217097266578|18-22
 28950|West 9 Wine Bar|Clarendon Terrace|W9|109||||4
 28951|Spital Street|Hanbury Street/Buxton Street|E1|5|5|51.5211044955063|-0.0698814752388133|.
 28952|Bank Bar SW11|Northcote Road|SW11|46|6|51.4597341090919|-0.166463920503401|33-37
@@ -28980,7 +28980,7 @@
 29496|Doon Club|Trafalgar Square|WC2|24||||66
 29497|Bel Canto Restaurant EC3|Minster Place/Mark Lane/Singing Restaurant|EC3|7|5|||1
 29498|Little Cross Street|Great Peter Street/Great College Street|SW1|5|1|||.
-29499|O2 Academy Brixton|Stockwell Road|SW9|2|209|51.46552793380732|-0.11496287174481944|211
+29499|O2 Academy Brixton|Stockwell Road|SW9|2|210|51.46552793380732|-0.11496287174481944|211
 29500|Child of the Jago EC2|Great Eastern Street|EC2|57|2|||10
 29501|Silkmills Square|Berkshire Road/Osborne Street|E9|1|4|51.54651075734161|-0.026200803103375865|.
 29502|Saint John Street|Charterhouse Street/The Angel|EC1|5|19|51.5245168269597|-0.103354082298597|.
@@ -32269,7 +32269,7 @@
 32866|Megaro Hotel|Belgrove Street|WC1|4|49|51.52977136418166|-0.12359493562667732|.
 32867|Keel Close|Timber Pond Road|SE16|5||51.5028300303702|-0.0429696542906766|.
 32868|Hull Close|Timber Pond Road|SE16|5||51.502741800377|-0.0425143763631786|.
-32869|Granger and Co Notting Hill Restaurant|Westbourne Grove|W11|7|118|51.51458881456751|-0.1978311692816257|175
+32869|Granger and Co Notting Hill Restaurant|Westbourne Grove|W11|7|119|51.51458881456751|-0.1978311692816257|175
 32870|Westway Travellers Site|Stable Way|W10|58|89|51.5151599183572|-0.22186670567256|.
 32871|Tower Mansions|Grange Road|SE1|20|1|51.4945809643482|-0.0760976367512822|86-87
 32872|Priory Park Road|Kilburn High Road|NW6|5||51.5405431091056|-0.196486576389185|.
@@ -32469,7 +32469,7 @@
 33077|Prince Street SE8|Evelyn Street/Watergate Street|SE8|5|4|51.4834084632851|-0.0274487144392421|.
 33078|Heron Apartments|Silk Street/Moor Lane|EC2|20|32|51.5196135579791|-0.0902601287738714|.
 33079|Yellow River Cafe and Bar|Cabot Square|E14|102||||10
-33080|Flat Iron Square SE1|Union street/Southwark Bridge Road|SE1|1|45|51.50422954234524|-0.09540133538659336|.
+33080|Flat Iron Square SE1|Union street/Southwark Bridge Road|SE1|1|46|51.50422954234524|-0.09540133538659336|.
 33081|Marlow House E2|Calvert Avenue|E2|20|1|||.
 33082|Asylum Aid N1|Upper Street/Union Club House|N1|37|1|||253-254
 33083|Carmine Wharf|Copenhagen Place|E14|100||||.
@@ -32510,7 +32510,7 @@
 33120|Tate Library NW1|Inner Circle/Regents College|NW1|39||||.
 33121|Latifiah Girls School|Cannon Street Road|E1|27|2|||46-48
 33122|Westway Stables|Stable Way|W10|99|2|||20
-33123|Streatham Ambulance Station|Mountearl Gardens|SW16|58|76|51.43598943662128|-0.11992760002613068|.
+33123|Streatham Ambulance Station|Mountearl Gardens|SW16|58|77|51.43598943662128|-0.11992760002613068|.
 33124|Mountearl Gardens SW16|Leigham Court Road|SW16|5|7|51.4361140538231|-0.122398353377144|.
 33125|Sunbeam Gardens|Shrewsbury Street/Barlby Road|W10|58|1|||.
 33126|Hemans Estate|Hemans Street|SW8|28|1|||.
@@ -33734,7 +33734,7 @@
 34405|Jubilee Building|Roehampton Lane/Roehampton University|SW15|27|1|51.4570338122959|-0.244476505338447|.
 34406|King Soloman Academy School NW1|Penfold Street|NW1|27|14|51.5216250996828|-0.169604019223066|.
 34407|Brondesbury Road NW6|Salusbury Road/Kilburn High Road|NW6|5|19|51.5362820944322|-0.200019490698327|.
-34408|Shangri-La Hotel|Saint Thomas Street|SE1|4|710|51.50407408458683|-0.0862670535639685|.
+34408|Shangri-La Hotel|Saint Thomas Street|SE1|4|711|51.50407408458683|-0.0862670535639685|.
 34409|Sulivan Road SW6|Broomhouse Lane/Peterborough Road|SW6|5||51.4667095288004|-0.195949812670653|.
 34410|Broomhouse Road SW6|New kings Road/Hurlingham Road|SW6|5|11|51.4717386980094|-0.200571546501298|.
 34411|Roastery Costa Coffee HQ|Old Paradise Street|SE11|58|24|51.49374862500949|-0.11799640953540802|30-34
@@ -33828,7 +33828,7 @@
 34502|Chez Bob Restaurant|Haverstock Hill|NW3|7|2|51.5510037477476|-0.165826655244459|205-207
 34503|Cafe Murano Saint James|Saint James's Street|SW1|102|52|51.50712115579722|-0.13957772542602492|33
 34504|Kilburn Market|Kilburn Square/Kilburn High Road|NW6|52|6|51.539067862433406|-0.1950882648728339|.
-34505|Ham Yard Hotel by Firmdale|Ham Yard/Great Windmill street|W1|4|250|51.511309674463654|-0.13463734607583153|.
+34505|Ham Yard Hotel by Firmdale|Ham Yard/Great Windmill street|W1|4|251|51.511309674463654|-0.13463734607583153|.
 34506|Mad Lillies Hair|Heath Street|NW3|107|1|||34
 34507|Sugar Karaoke Bar|Wardour Street|W1|46|19|51.51055107745004|-0.13164882880567644|11
 34508|Harvey House SW1|Aylesford Street|SW1|20||||.
@@ -34163,7 +34163,7 @@
 34860|Grand Union Theatre|Wentworth Street|E1|2|1|51.5169039062525|-0.0746231713231893|76
 34861|Vancouver House E1|Reardon Path|E1|8||||.
 34862|Reardon Path|Green Bank/Wapping High Street|E1|5|1|51.5036758150505|-0.0596566140674048|.
-34864|Fischers Restaurant|Marylebone High Street|W1|7|441|51.521609886187086|-0.1515844619518994|50
+34864|Fischers Restaurant|Marylebone High Street|W1|7|442|51.521609886187086|-0.1515844619518994|50
 34865|Ginger Apartments|Curlew Street|SE1|20||||.
 34866|MB Hotel|Cricklewood Lane|NW2|4|9|51.5612134533008|-0.204189072843119|276
 34867|Torpedo Factory Group|Saint Leonards Road|NW10|20|47|51.5272920845274|-0.256741544986034|.
@@ -34766,7 +34766,7 @@
 35523|Debenhams National Head Office|Welbeck Street|W1|57|4|51.5158417174004|-0.148475163591624|1
 35524|Sydenham Park Road SE26|Dartmouth Road|SE26|5||51.4327679691152|-0.0554801854574971|.
 35525|Huckle The Barber|Old Street|EC1|105||51.5267054749937|-0.0811752627235851|340
-35526|Saint Johns Wood Library|Circus Road|NW8|39|51|51.53364554331292|-0.17248453011815315|20
+35526|Saint Johns Wood Library|Circus Road|NW8|39|52|51.53364554331292|-0.17248453011815315|20
 35527|Rose and Crown PH N16|Stoke Newington Church St|N16|46|4|||199
 35528|Brompton Club|Old Brompton Road|SW7|7||51.4924599890438|-0.177761972575037|92
 35529|Mills Court EC2|Charlotte Road|EC2|20|10|51.5257239914576|-0.0810670627474264|.
@@ -35204,7 +35204,7 @@
 35986|Reds True BBQ|Great Eastern Street|EC2|7|3|||54-56
 35987|Ivor House|Acre Lane|SW2|20|2|51.4605921333326|-0.117736004858267|1
 35988|Barrow Hill Reservoir|Saint Edmunds Terrace|NW8|58|1|51.5377052338137|-0.162283357673647|.
-35989|Walmer Castle PH|Ledbury Road|W11|46|55|51.515202390597416|-0.19922083170543964|58
+35989|Walmer Castle PH|Ledbury Road|W11|46|56|51.515202390597416|-0.19922083170543964|58
 35990|Tony Page at Island Grill Restaurant - GONE|Lancaster Terrace/Lancaster London Hotel|W2|88|10|51.5117868318196|-0.17576003189111|.
 35991|Ozone Coffee Roasters UK|Leonard Street|EC2|57||||11
 35992|Attendant Restaurant|Great Eastern Street|EC2|7|1|||74
@@ -35617,7 +35617,7 @@
 36412|So Park|Battersea Park Road|SW11|4|1|||140
 36413|Stane Street Syndicate PH SW4|Clapham High Street|SW4|46|2|||196
 36415|Emslie Horniman Pleasance Park|Bosworth Road/Kensal Road|W10|45|3|51.5257450296005|-0.20847872997737443|.
-36416|Broadgate Tower|Primrose Street|EC2|53|73|51.5206495117826|-0.0797400263080505|.
+36416|Broadgate Tower|Primrose Street|EC2|53|74|51.5206495117826|-0.0797400263080505|.
 36417|Opera Gallery|New Bond Street|W1|112|3|51.511970381849615|-0.14443638056392788|134
 36418|Banim Street|Aldensley Road/Glenthorne Road|W6|5|1|||.
 36419|Mommi Restaurant|Clapham High Street|SW4|7|26|51.4640958246782|-0.13235800929836788|44-48
@@ -36452,7 +36452,7 @@
 38084|Albert Jacob House|Roman Road|E2|20|1|||62
 38085|Hyde Park Executive Apartments|Inverness Terrace|W2|4|3|51.5110884437011|-0.18577926380188783|8-18
 38086|Dirty Martini Cocktail Bar Minories|Minories|EC3|7|5|51.51191812570042|-0.07568361786193088|124-127
-38087|CitizenM Shoreditch Hotel|Holywell Lane|EC2|4|108|51.523847973638546|-0.0785842232148837|6
+38087|CitizenM Shoreditch Hotel|Holywell Lane|EC2|4|109|51.523847973638546|-0.0785842232148837|6
 38088|Caravan London Bridge Restaurant|Great Guildford Street|SE1|7|42|51.50454851458649|-0.0970851510092199|30
 38089|Jamies Italian Restaurant EC4 - GONE|Old Bailey/One New Ludgate|EC4|7|5|51.5142583611723|-0.1024205431090701|5
 38090|Montcalm Royal London House|Finsbury Square|EC2|4|318|51.52150392289673|-0.08587374970232096|22-25
@@ -38032,7 +38032,7 @@
 40425|Made In Little France|Saint John Street|EC1|57|2|51.530398325248555|-0.1058494689407712|397
 40426|Jamies Italian Restaurant SW1|Victoria Street|SW1|7|2|51.37515400091362|-0.3032586046185482|66
 40427|West London Islamic Cultural Centre Mosque|Bridges Place|SW6|11|10|51.47672380846288|-0.20209160464556833|7
-40428|Great Scotland Yard Hotel (unbound Collection)|Great Scotland Yard|SW1|4|45|51.50644594072698|-0.12614496052265167|3
+40428|Great Scotland Yard Hotel (unbound Collection)|Great Scotland Yard|SW1|4|46|51.50644594072698|-0.12614496052265167|3
 40431|E and O Restaurant Chelsea|Kings Road|SW3|7|6|51.48394383557926|-0.1772012913167137|392
 40432|Santa Maria Pizzeria Fulham|Waterford Road|SW6|7|1|51.47743562648798|-0.1906313810450209|94
 40434|Kennedys Fish and Chips Restaurant Sw16|Leigham Court Road|SW16|7|4|51.43807632690573|-0.12651376426219935|5
@@ -38943,7 +38943,7 @@
 42040|Capital House|King William Street|EC4|8|1|51.51242125899591|-0.08786748470175908|85
 42043|Alexander Street W2|Westbourne Park Road|W2|5|1|51.51680120321441|-0.1924214543073973|.
 42050|Charlotte Place|Goodge Street/Rathbone Street|W1|5|1|51.51893842674079|-0.1360318736401512|.
-42053|Fenton House and Garden (National Trust)|Hampstead Grove|NW3|8|20|51.5588591902804|-0.1795691031217144|.
+42053|Fenton House and Garden (National Trust)|Hampstead Grove|NW3|8|21|51.5588591902804|-0.1795691031217144|.
 42058|American Embassy - Old|Grosvenor Square|W1|3|1|51.511153839879974|-0.153077130676087|.
 42060|Waitrose SE10|Dowells Street|SE10|57|3|51.48223984194867|-0.015676764536035854|.
 42065|North Brixton Islamic Cultural Centre|Brixton Road|SW9|11|4|51.473945023448685|-0.11279338789370076|182
@@ -41012,12 +41012,12 @@
 51368|Ikea City (Oxford Street)|Oxford Street|W1|57|35|51.515469202863535|-0.1412464678287506|214
 51369|Mandarin Oriental Mayfair Hotel|Hanover Square|W1|4|21|51.513302416383056|-0.14425674089268337|22
 51370|Garden Vauxhall Beer Garden|South Lambeth Place|SW8|46|6|51.48545722838169|-0.12334641069173811|6A
-51371|V & A East Storehouse Museum|Parkes Street|E20|18|5|51.54637111877161|-0.02114284783601761|107
+51371|V & A East Storehouse Museum|Parkes Street|E20|18|6|51.54637111877161|-0.02114284783601761|107
 51372|Sadlers Wells East Theatre|Carpenters Road|E20|2|10|51.54104638166416|-0.010986204171184464|101
 51373|BBC Music Studios|Carpenters Road|E20|59|6|51.54216231391301|-0.01332119107246399|.
 51374|Gallery Nightclub|Kensington High Street|W8|24|6|51.5026011789113|-0.18793534487485888|2A
 51375|Minecraft Experience|Maritime Street|SE16|18|2|51.49633612885152|-0.04692424088716507|.
-51376|July London Victoria Hotel|Vauxhall Bridge Road|SW1|4|39|51.49487644907384|-0.14135878533124924|282
+51376|July London Victoria Hotel|Vauxhall Bridge Road|SW1|4|40|51.49487644907384|-0.14135878533124924|282
 51378|Horizon 22|Bishopsgate|E1|18|9|51.51464046355534|-0.08313272148370743|22
 51379|Emerald Theatre London|Victoria Embankment|WC2|2|7|51.5099195750817|-0.11828809976577756|8
 51380|21Soho Comedy Club|Sutton Row|W1|24|13|51.51564300252284|-0.13116136193275452|3-5
@@ -41030,7 +41030,7 @@
 51683|Prince Arthur PH|Pimlico Road|SW1|46|4|51.49084554473504|-0.15085849910974505|11
 51684|Padium Padel Club|Bank Street|E14|97|8|51.503644678882814|-0.023245029151439667|10
 51685|Museum of Shakespeare|Hewitt Street|EC2|18|10|51.52308989309419|-0.07974173873662949|10
-51686|Bluebird City|South Place|EC2|7|18|51.51895341515247|-0.08662059903144836|3
+51686|Bluebird City|South Place|EC2|7|19|51.51895341515247|-0.08662059903144836|3
 51687|Guinness Open Gate Brewery|Mercer Walk|WC2|46|4|51.513211239387225|-0.1255631849557485|1
 51688|Tattu London|Denmark Street/Outernet|WC2|7|5|51.515316475604706|-0.12944642454385755|.
 51689|Wine Club|Pall Mall|SW1|24|3|51.50545718153344|-0.13709574937820437|67
