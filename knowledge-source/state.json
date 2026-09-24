@@ -1,28 +1,28 @@
 {
-  "updated_at_utc": "2026-09-24T10:01:27.952970+00:00",
+  "updated_at_utc": "2026-09-24T15:06:21.326363+00:00",
   "timestamps": {
-    "data/Examiners.txt": "1790242579",
-    "data/PointsInfo.txt": "1790242578",
-    "data/Questions.txt": "1790242583"
+    "data/Examiners.txt": "1790246654",
+    "data/PointsInfo.txt": "1790246652",
+    "data/Questions.txt": "1790246659"
   },
   "last_downloads": [
     {
       "path": "data/Examiners.txt",
-      "server_timestamp": "1790242579",
+      "server_timestamp": "1790246654",
       "bytes": 1328,
-      "sha256": "fbfee053cc7eec0d563dfcad9177a8250f2bbce6c5ea5c88fbe326cffa14b634"
+      "sha256": "9e08010044eecd389d7df328fb0c3cbb68a12f271ecca8367dc55897580b6169"
     },
     {
       "path": "data/PointsInfo.txt",
-      "server_timestamp": "1790242578",
-      "bytes": 3112241,
-      "sha256": "d5d52a19be7e99fb4cdb63f68c0891b99f1cc2bd7c370a480c3e646e54f1426f"
+      "server_timestamp": "1790246652",
+      "bytes": 3112243,
+      "sha256": "64ed93c2be3324844338aa71539b811d6d5626d798f6968efb1b306b5a1b729d"
     },
     {
       "path": "data/Questions.txt",
-      "server_timestamp": "1790242583",
-      "bytes": 3397622,
-      "sha256": "d559f0954696fe9788da142264e90f85ddcf0233463990fbab6d542724b48241"
+      "server_timestamp": "1790246659",
+      "bytes": 3398774,
+      "sha256": "70a79f0e6e6e6b374ccadedc91671ed94f002d09017565fd346256a4cae8e357"
     }
   ]
 }
